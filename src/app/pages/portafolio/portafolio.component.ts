@@ -1,3 +1,4 @@
+import { ProductosService } from './../../services/productos.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,9 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PortafolioComponent implements OnInit {
 
-  constructor() { }
+  constructor(public productosService: ProductosService) { }
 
   ngOnInit(): void {
+    
   }
 
 }
