@@ -1,3 +1,4 @@
+import { InfoPaginasService } from './services/info-paginas.service';
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'portafolio';
+  constructor(public _infoPagina: InfoPaginasService){
+
+  }
 }
