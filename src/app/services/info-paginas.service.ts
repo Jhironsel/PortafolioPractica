@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { InfoPagina } from '../Interfaces/info-pagina.interface';
+import { InfoPagina } from "../Interfaces/InfoPagina";
 
 @Injectable({
   providedIn: 'root'
